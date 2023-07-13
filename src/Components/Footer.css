@@ -1,0 +1,47 @@
+:root{
+  --bgColor:rgb(165, 216, 238);
+  --dbgColor:#16161ada;
+  --fontColor: whitesmoke;
+  --btn-bg-color:#b2070a;
+
+}
+.footer{
+  width: 100%;
+  align-items: center;
+  background-color:var(--bgColor);
+  position: relative;
+  padding: 1.5rem;
+
+}
+
+
+.about{
+  height: 200px;
+  
+
+}
+.address{
+  height: 200px;
+
+
+}
+.s-links{
+  height: 200px;
+
+
+}
+
+.foot-btn{
+  margin: 1rem;
+}
+.foot-logo{
+  margin: 1rem;
+}
+
+#logo{
+  color: rgb(49, 54, 49);
+}
+#logo i:hover{
+  color: aliceblue;
+  transform: scale(110%);
+}

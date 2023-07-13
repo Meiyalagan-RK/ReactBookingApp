@@ -1,0 +1,26 @@
+
+
+.head-contain{
+    background-color: rgb(165, 216, 238);
+  }
+  
+  a.navbar-brand.head-logo {
+    color: whitesmoke;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  
+  span {
+    color:#ea3131
+  }
+  a.head-item {
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin:0 1rem;
+    padding:2rem;
+    color: whitesmoke;
+  }
+  
+  a.head-item:hover{
+    color: rgb(83, 170, 214);
+  }

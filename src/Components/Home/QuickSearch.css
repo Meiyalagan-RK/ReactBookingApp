@@ -1,0 +1,96 @@
+/* Movies section now showing */
+
+div.showing-movie-contain{
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
+
+
+div.filter-section{
+  margin-top: 1rem;
+  border-radius: 5px;
+
+}
+.filter-head{
+  margin: 1rem;
+  color: rgb(37, 40, 42);
+}
+
+.filter-title{
+  color: skyblue;
+  margin: 10px 0;
+}
+
+.filter-genre{
+  border: 1px solid beige;
+  margin: 1rem;
+  padding: 1rem ;
+  border-radius: 20px;
+}
+
+.filter-language{
+  border: 1px solid beige;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.filter-format{
+  border: 1px solid beige;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.movies-section{
+
+  margin-top: 1rem;
+  border-radius: 20px;
+
+}
+
+h3.show-title{
+  margin: 1rem;
+  padding-bottom:10px ;
+  color: rgb(37, 40, 42);
+ 
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit:100% 100%;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: skyblue;
+  padding-bottom: 1rem;
+  border-bottom:  1px solid rgb(119, 185, 229);
+  
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.btn-block{
+  text-align: center;
+  
+}
+a.btn.book-ticket {
+  background-color: rgb(241, 77, 77);
+  color: rgb(247, 249, 250);
+ 
+}

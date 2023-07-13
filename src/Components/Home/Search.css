@@ -1,0 +1,86 @@
+/* dark mode and light mode btn */
+
+.sticky-button {
+  position: fixed;
+  top:20rem;
+  right: 20px;
+  z-index:10;
+  background-color: #33312e;
+  padding: 18px 18px;
+  border-radius: 40%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.dark-mode{
+  width: fit-content;
+}
+.dark-theme{
+  background-color:var(--dbgColor);
+
+  --fontColor:#fff;
+  --btn-color:rgb(238, 134, 74);
+}
+
+/* hero section */
+
+.landing-back{
+  background-size: cover;
+  height: 25rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.form-control.me-4.search-bar{
+  width: 30rem;
+}
+
+button.btn.btn-primary.btn-lg.land-btn {
+  background-color: #f32933;
+  border-color: #e50914;  
+}
+
+button.btn.btn-primary.btn-lg.land-btn:hover {
+  background-color: #941316;
+  border-color: #a91c1e; 
+}
+
+/* coupon code */
+
+.btn-close{
+  z-index: 100;
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  color: skyblue;
+  background-color: skyblue;
+}
+/* carousel  */
+
+.c-contain{
+  margin: 1rem;
+
+}
+.c-item{
+  height:600px;
+ 
+
+}
+
+img.c-img{
+  height: 100%;
+  width: 100%;
+  object-fit:fill;
+}
+
